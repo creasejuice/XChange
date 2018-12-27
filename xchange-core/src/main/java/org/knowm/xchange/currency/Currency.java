@@ -35,13 +35,14 @@ public class Currency implements Comparable<Currency>, Serializable {
   public static final Currency AVT = createCurrency("AVT", "Aventus", null);
   public static final Currency AWG = createCurrency("AWG", "Aruban Florin", null);
   public static final Currency AZN = createCurrency("AZN", "Azerbaijani Manat", null);
-  public static final Currency BAM =
-      createCurrency("BAM", "Bosnia-Herzegovina Convertible Mark", null);
+  public static final Currency BAM = createCurrency("BAM", "Bosnia-Herzegovina Convertible Mark", null);
   public static final Currency BAT = createCurrency("BAT", "Basic Attention Token", null);
   public static final Currency BBD = createCurrency("BBD", "Barbadian Dollar", null);
   public static final Currency BC = createCurrency("BC", "BlackCoin", null, "BLK");
   public static final Currency BCC = createCurrency("BCC", "BitConnect", null);
   public static final Currency BCH = createCurrency("BCH", "BitcoinCash", null);
+  public static final Currency BCHABC = createCurrency("BCHABC","BitcoinCash ABC", null);
+  public static final Currency BCHSV = createCurrency("BCHSV","BitcoinCash SV", null);
   public static final Currency BCA = createCurrency("BCA", "BitcoinAtom", null);
   public static final Currency BLK = getInstance("BLK");
   public static final Currency BDT = createCurrency("BDT", "Bangladeshi Taka", null);
