@@ -288,12 +288,23 @@ public class CurrencyPair implements Comparable<CurrencyPair>, Serializable {
 
   public static final CurrencyPair EOS_ETH = new CurrencyPair(Currency.EOS, Currency.ETH);
   public static final CurrencyPair EOS_BTC = new CurrencyPair(Currency.EOS, Currency.BTC);
+  
 
   public static final CurrencyPair BCC_USD = new CurrencyPair(Currency.BCC, Currency.USD);
   public static final CurrencyPair BCC_BTC = new CurrencyPair(Currency.BCC, Currency.BTC);
 
   public static final CurrencyPair BAT_USD = new CurrencyPair(Currency.BAT, Currency.USD);
   public static final CurrencyPair BAT_BTC = new CurrencyPair(Currency.BAT, Currency.BTC);
+  
+  //Binance Additional Pairs
+  public static final CurrencyPair BCHABC_USDT = new CurrencyPair(Currency.BCHABC, Currency.USDT);
+  public static final CurrencyPair BCHABC_BTC = new CurrencyPair(Currency.BCHABC, Currency.BTC);
+  
+  public static final CurrencyPair TRX_XRP = new CurrencyPair(Currency.TRX, Currency.XRP);
+  
+  public static final CurrencyPair XRP_ETH = new CurrencyPair(Currency.XRP, Currency.ETH);
+  
+  public static final CurrencyPair EOS_USDT = new CurrencyPair(Currency.EOS,Currency.USDT);
 
   // Tether Pairs
   public static final CurrencyPair BTC_USDT = new CurrencyPair(Currency.BTC, Currency.USDT);
